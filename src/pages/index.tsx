@@ -1,16 +1,11 @@
-import {
-  Text,
-  Flex
-} from '@chakra-ui/react'
-import { DarkModeSwitch } from '../components/DarkModeSwitch'
+import Navigation from "../components/Navigation";
+import Hero from "../components/Hero";
 
 const Index: React.FC = () => (
   <>
-    <Flex justifyContent="center" p={10}>
-      <Text className="puritan" fontSize="3xl">This is be-fit.</Text>
-    </Flex>
-    <DarkModeSwitch />
+    <Navigation />
+    <Hero />
   </>
-)
+);
 
-export default Index
+export default Index;
